@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Estilo.css">
+        <title>Web Forms</title>
+        
+    </head>
+    <body>
+        <header>
+            <Center> <H1>DESAROLLO WEB</H1>
+                <H3>INTRODUCCION A HTML 5</H3>
+                <img src="images/1.jpg" width=" 250"></Center>
+        <ul class="menu4">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Elementos.html">Elementos</a></li>
+            <li><a href="Atributos.html">Atributos</a></li>
+            <li><a href="Formulario.html">Formulario de Registro</a></li>
+            <li><a href="Registro.html">Registro</a></li>
+        </ul>
+       
+          
+   
+        </header>
+             <form>
+                <fieldset class="form3">
+                    <fieldset class="form4">
+                      <div>
+                        <center>
+                            <h3> DATOS PERSONALES</h3>
+                            </center>
+                      </div>
+                    
+                     <div class="row2cols2">  
+                         <b><label for="Documento">Documento de Identificacion:</label></b>
+                            <input type="text"
+                             id="Documento" 
+                             name="Documento" 
+                             placeholder="Identificacion" 
+                            required>
+                     </div> 
+                     <div class="row2cols2">  
+                         <b> <label for="nombre">Nombre:</label></b>
+                             <input type="text" 
+                             id="nombre" 
+                             name="nombre" 
+                             placeholder="Nombre Completo"  
+                             required>
+                     </div>
+                     <div class="row2cols2">  
+                        <b> <label for="direccion">Direccion:</label></b>
+                            <input type="text" 
+                            id="direccion" 
+                            name="direccion" 
+                            placeholder="Direccion Valida"  
+                            required>
+                    </div>
+                    <div class="row2cols2">  
+                        <b> <label for="pais">Pais:</label></b>
+                            <input type="text" 
+                            id="pais" 
+                            name="pais" 
+                            placeholder="Pais"  
+                            required>
+                    </div>
+                    <div class="row2cols2">  
+                        <b> <label for="correo">E-mail:</label></b>
+                            <input type="email" 
+                            id="correo" 
+                            name="correo" 
+                            placeholder="Correo Electronico"  
+                            required>
+                    </div>
+                    <div class="row2cols2">  
+                        <b> <label for="Observaciones">Observaciones:</label></b>
+                            <textarea type="text" 
+                            id="Observaciones" 
+                            name="Observaciones" 
+                            placeholder="Observaciones"  
+                            required></textarea>
+                    </div>
+               
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <center><h3> DATOS LABORALES   </h3></center>
+                    </div>    
+                
+              
+                 <div class="row2cols2">  
+                     <b> <label for="Sueldo">Sueldo:</label></b>
+                         <input type="text" 
+                         id="sueldo" 
+                         name="sueldo" 
+                         placeholder="Sueldo Ordinario"  
+                         required>
+                 </div>
+                 <div class="row2cols2">  
+                    <b> <label for="bonificacion">Bonificacion:</label></b>
+                        <input type="text" 
+                        id="bonificacion" 
+                        name="bonificacion" 
+                        placeholder="Cantidad de Bonificacion"  
+                        required>
+                </div>
+                <div class="row2cols2">  
+                    <b> <label for="otras">Otras Bonificaciones:</label></b>
+                        <input type="text" 
+                        id="otras" 
+                        rows="10"
+                        name="otras" 
+                        placeholder="Otras Bonificaciones"  
+                        required maxlength="25">
+                </div>
+            </fieldset>
+            <div class="button" style="text-align: right">
+               <br> <button  value="Ingresar" required>Ingresar</button>
+            </div>
+        </fieldset>
+        </form>
+    </body>
+    <footer>
+        <div style="text-align: center">
+            <p> Copyright Lourdes Carvajal Barrientos 2021 </p>
+            <p> Desarrollo Web </p>
+        </div>
+    </footer>
+    </html>
+</html>
